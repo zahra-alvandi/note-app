@@ -3,9 +3,9 @@ const modalScreen = document.querySelector(".modal-screen");
 const closeModalBtn = document.querySelector(".close");
 const closeXBtn = document.querySelector(".close-x-btn");
 const textArea = document.querySelector("textarea");
-const createNoteBtn = document.querySelector(".continue")
-const colorBoxes = document.querySelectorAll(".color-box")
-const notesContainer = document.querySelector(".notes-container")
+const createNoteBtn = document.querySelector(".continue");
+const colorBoxes = document.querySelectorAll(".color-box");
+const notesContainer = document.querySelector(".notes-container");
 
 
 let mainColor;
@@ -45,8 +45,8 @@ colorBoxes.forEach(function (colorBox) {
     colorBox.addEventListener("click", function (event) {
         mainColor = event.target.dataset.color;
 
-    })
-})
+    });
+});
 
 creatButton.addEventListener("click", showModal);
 closeModalBtn.addEventListener("click", hideModal);
