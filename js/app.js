@@ -101,7 +101,7 @@ const createNoteBtn = document.querySelector(".continue");
 const colorsBoxes = document.querySelectorAll(".color-box");
 const notesContainer = document.querySelector(".notes-container");
 const searchInput = document.querySelector(".search-input");
-const searchBtn = document.querySelector(".search-btn");
+const searchBtn = document.querySelector(".search-card");
 
 let mainColor;
 
